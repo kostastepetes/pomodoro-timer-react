@@ -1,6 +1,7 @@
 import './App.css';
 import Timer from "./Timer";
 import Settings from "./Settings";
+import TaskApp from "./TaskApp";
 import {useState} from "react";
 import SettingsContext from "./SettingsContext";
 
@@ -22,7 +23,13 @@ function App() {
       }}>
         {showSettings ? <Settings /> : <Timer />}
       </SettingsContext.Provider>
+      <div>
+      <TaskApp/>
+      </div>
     </main>
+    
+    
+
   );
 }
 

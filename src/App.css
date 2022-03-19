@@ -4,8 +4,7 @@
 }
 
 body{
-  /*background: rgb(2,0,36);*/
-  background: #fafa7a;
+  background: rgb(63,94,251);
   color: #717170;
 }
 main{
@@ -17,8 +16,7 @@ main{
 
 button{
   background-color: transparent;
-  /*color: rgba(255,255,255,0.8);*/
-  color: #c24444;
+  color: #e2e2e2;
   border:0;
   display: inline-block;
   width: 100px;

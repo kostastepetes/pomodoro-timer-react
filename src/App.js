@@ -4,6 +4,7 @@ import Settings from "./Settings";
 import TaskApp from "./TaskApp";
 import {useState} from "react";
 import SettingsContext from "./SettingsContext";
+import Logo from "./Logo";
 
 function App() {
 
@@ -13,6 +14,7 @@ function App() {
 
   return (
     <main>
+      <Logo />
       <SettingsContext.Provider value={{
         showSettings,
         setShowSettings,
